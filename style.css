@@ -1,0 +1,219 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+a {
+    text-decoration:none;
+}
+.header { 
+    height: 200px;
+    padding: 0px;
+    margin: 0px;
+    background-color: #F8F8F8;
+}
+.header-conteiner {
+    height: 200px;
+    display: grid;
+}
+
+.header-conteiner__general {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-conteiner__logo {
+    padding: 20px;
+}
+.logo {
+    width: 120px;
+    height: 120px;
+}
+.header-conteiner__link-more {
+    width: 600px;
+    padding-top: 10px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: end;
+}
+.header-conteiner__link {
+    padding: 20px;
+    color: purple;
+}
+.header-conteiner__menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.header-conteiner__menu-link {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+
+}
+.main {
+}
+.present-conteiner {
+    padding-top: 50px;
+    display: flex;
+}
+.present-conteiner__img-box {
+    width: 650px;
+}
+.present-conteiner__img {
+    width: 750px;
+}
+.present-conteiner__box {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.present-conteiner__box-inner {
+    padding: 20px 60px 20px 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 500px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.82);
+    display: grid;
+}
+
+.present-conteiner__box-description {
+    margin: 0px;
+    font-size: 26px;
+    font-weight: 100;
+    text-align: center;
+}
+.present-conteiner__box-description--fat {
+    margin: 0px;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+.button--long {
+    width: 500px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    border: none;
+    color: #ffffff;
+    font-size: 22px;
+    background-color: #4B2A63;
+}
+.statistics {
+    margin: 50px 0px;
+    display: grid;
+}
+.statistics__title { 
+    margin-bottom: 40px;
+    font-size: 28px;
+    justify-content: center;
+    display: flex;
+}
+.statistics__box {
+    display: flex;
+    justify-content: space-around;
+}
+.statistics-item {
+    width: 150px;
+    text-align: center;
+}
+.statistics-item__img {
+}
+.statistics-item__desc {
+    font-size: 20px;
+}
+
+.easy-steps-conteiner {
+    display: flex;
+    justify-content: end;
+}
+.easy-steps-conteiner__desc-box {
+    padding: 20px 60px;
+    margin: 40px 0px;
+    width: 700px;
+    background-color:  rgba(255, 255, 255, 0.82);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.easy-steps-conteiner__title {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.easy-steps-conteiner__title h2 {
+    color: #241330;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 10px;
+}
+.easy-steps-conteiner__title p {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 0px;
+}
+
+.easy-steps-conteiner__desc-items {
+    text-align: center;
+    width: 400px;
+}
+.easy-steps-conteiner__desc-items h2{
+    color: #4B2A63;
+    font-size: 26px;
+    line-height: 4px;
+}
+.easy-steps-conteiner__desc-items p {
+    font-size: 18px;
+}
+.easy-steps-conteiner__img-box {
+    width: 800px;
+    display: flex;
+    justify-content: end;
+}
+.easy-steps-conteiner__img {
+    width: 1000px;
+}
+
+.whatwedo-conteiner {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.whatwedo-conteiner__title {
+    font-weight: 500;
+    text-align: center;
+    font-size: 32px;
+}
+.whatwedo-conteiner__images-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.whatwedo-conteiner__img-item {
+}
+.whatwedo-conteiner__img {
+    height: 300px;
+}
+.whatwedo-conteiner__img-desc {
+    text-align: center;
+    line-height: 0;
+    font-weight: 500;
+    font-size: 19px;
+    color: #4B2A63;
+}
+.whatwedo-conteiner__desc {
+    max-width: 68%;
+    text-align: center;
+    justify-content: center;
+}
