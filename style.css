@@ -245,7 +245,7 @@ a {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.75);;
+    background-color: rgba(255, 255, 255, 0.75);
 }
 
 .ourprojects__header {
@@ -267,9 +267,109 @@ a {
     display: flex;
     justify-content: center;
     font-weight: 600;
-    font-size: 18px;
     border: none;
     color: #ffffff;
-    font-size: 22px;
+    font-size: 20px;
     background-color: #4B2A63;
+}
+.lettalk__container {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.lettalk__header {
+    font-weight: 300;
+}
+.lettalk__data {
+    display: flex;
+}
+.lettalk__name {
+    margin-right: 5%;
+    width: 400px;
+    color: rgba(0, 0, 0, 0.403);
+    border: none;
+    border-bottom: 2px solid rgba(6, 6, 6, 0.403);
+}
+.lettalk__phone {
+    margin-right: 5%;
+    width: 400px;
+    color: rgba(0, 0, 0, 0.403);
+    border: none;
+    border-bottom: 2px solid rgba(6, 6, 6, 0.403);
+}
+.button--small {
+    width: 200px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #4B2A63;
+}
+
+/*---footer---*/
+
+.footer {
+    background-color: #F8F8F8;
+}
+.footer-conteiner {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+}
+.footer-conteiner__inner--start {
+    width: 33.33333%;
+    font-size: 12px;
+}
+.footer-conteiner__logo {
+    margin-left: -20px;
+}
+.footer__logo {
+    width: 80px;
+}
+.footer-conteiner__desc {
+}
+.footer-conteiner__social {
+    max-height: 11%;
+    margin: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-conteiner__inner--midl {
+    width: 33.33333%;
+    margin-left: 5%;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+}
+.footer-conteiner__titile {
+    margin: 7% 0%;
+    font-size: 18px;
+}
+.footer-conteiner__list {
+    list-style: none;
+}
+.footer-conteiner__inner--end {
+    width: 33.33333%;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    justify-content: start;
+}
+.footer-conteiner__get {
+}
+.footer-conteiner__cont {
+}
+.footer-conteiner__links {
+    margin-top: 6em;
+    font-size: 14px;
+    word-spacing: 1em;
 }
